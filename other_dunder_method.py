@@ -9,7 +9,7 @@ class Number:
     def __mul__(self, num2):
         print("Let's multiply")
         return self.num*num2.num
-    
+
     def __str__(self):
         return f"Number is:{self.num}"
 
@@ -17,7 +17,6 @@ class Number:
         return 1
 
 
-n1 = Number(4) 
-print(n1) #<__main__.Number object at 0x0000000000438880>
+n1 = Number(4)
+print(n1)  # <__main__.Number object at 0x0000000000438880>
 print(len(n1))
-

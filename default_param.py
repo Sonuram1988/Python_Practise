@@ -6,9 +6,15 @@
 # ans=sum(100,120)
 # print(ans)
 
-def greet(name="Unknown"):
-    str="Have a Good day, "+name
+# def greet(name="Unknown"):
+#     str="Have a Good day, "+name
+#     return str
+
+# ans=greet("Lord Krishna")
+# print(ans)
+
+def greet(name="unknown"):
+    str='Have a Good day, '+name
     return str
 
-ans=greet("Lord Krishna")
-print(ans)
+print(greet())
